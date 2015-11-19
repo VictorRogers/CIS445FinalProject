@@ -1,0 +1,20 @@
+{
+  "name": "cis445finalproject",
+  "version": "1.0.0",
+  "description": "Final Project for CIS445",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorRogers/CS445FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorRogers/CS445FinalProject/issues"
+  },
+  "homepage": "https://github.com/VictorRogers/CS445FinalProject#readme"
+}
