@@ -1,0 +1,30 @@
+body{
+	background:gray;
+	background-image:url('http://localhost:8012/images/backgroundTile.jpg');
+	background-size: 30%;
+}
+.main-content{
+		margin-top:20px;
+		background:black;
+		padding-top:15px;
+}
+.logoHeader{
+	background:black;
+}
+.header-logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:-40px;
+	width:350px;	
+}
+.navHeader{
+	background:white;
+	padding:3px;
+}
+.footer{
+	background:white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}

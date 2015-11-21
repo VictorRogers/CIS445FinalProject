@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Final Project for CIS445",
   "main": "server.js",
+	"dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.6.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
