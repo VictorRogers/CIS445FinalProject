@@ -1,0 +1,34 @@
+Locations
+	1.)Dun Morogh
+	2.)Elwynn Forest
+	3.)Teldrassil
+	4.)Azuremyst Ilse
+	5.)Gilneas
+	6.)Tirisfal Glades
+	7.)Durotar
+	8.)Mulgore
+	9.)Eversong Woods
+	10.)Kezan
+	11.)Wandering Isle
+	12.)Scarlet Enclave
+	
+	
+Items
+	1.)potion of healing
+	2.)scroll of magic mapping
+	3.)c-rations
+	4.)axe of slaying
+	5.)noob masher(mace)
+	6.)sword of slaying
+	7.)hallowed wand
+	8.)staff of resurrection
+	9.)apple
+	10.)water of replenishment
+	11.)tome of chaos
+	12.)sure strikers bow
+	13.)poison dagger
+	14.)scroll of cause fear
+	15.)wizard's hat
+	16.)wizard's robe
+	17.)old boots
+	18.)quarterstaff
