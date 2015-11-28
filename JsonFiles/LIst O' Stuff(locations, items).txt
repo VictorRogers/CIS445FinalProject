@@ -17,18 +17,26 @@ Items
 	1.)potion of healing
 	2.)scroll of magic mapping
 	3.)c-rations
-	4.)axe of slaying
-	5.)noob masher(mace)
-	6.)sword of slaying
-	7.)hallowed wand
-	8.)staff of resurrection
+	4.)axe of slaying 3
+	5.)noob masher 6
+	6.)sword of slaughtering dead babies 5
+	7.)hallowed wand 3
+	8.)staff of resurrection 7
 	9.)apple
 	10.)water of replenishment
-	11.)tome of chaos
+	11.)tome of chaos 4
 	12.)sure strikers bow
-	13.)poison dagger
-	14.)scroll of cause fear
-	15.)wizard's hat
-	16.)wizard's robe
-	17.)old boots
-	18.)quarterstaff
+	13.)poison dagger 5
+	14.)scroll of cause fear 
+	15.)wizard's hat 3
+	16.)wizard's robe 5
+	17.)old boots 2 
+	18.)quarterstaff 2
+	19.)iron helmet 2
+	20.)steel chest plate 5
+	21.)ass kicking boots 5
+	22.)leather helmet 3 
+	23.)leather chest 4
+	24.)sure strike bow 6
+	25.)steel tipped arrows 2
+	26.)backpack
