@@ -65,7 +65,7 @@ db.Character.insert({
 		{name: 'steel chest plate', bonus: 5, region: 'body'},
 		{name: 'ass kicking boots', bonus: 5, region: 'feet'}
 	],
-	weapons: [{qty: 1, name: 'noob masher', bonus: 6, hand: 'both'}],
+	weapons: [{name: 'noob masher', bonus: 6, hand: 'both'}],
 	inventory: [
 		{qty: 1, name: 'backpack', inventory: [
 			{qty: 5, name: 'potion of healing'},
