@@ -20,13 +20,13 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			});
 
 			app.get('/characters', function(req, res) {
-			//res.render('pages/characters', {title:'Character List'});
-		  	var collection = db.collection('Character');
-  	    collection.find().toArray(function(err, results) {
-					if (err) throw err;
+				res.render('pages/characters', {title:'Character List'});
+				var collection = db.collection('Character');
+				collection.find().toArray(function(err, results) {
+				if (err) throw err;
 					res.json(results);
 				});
-		  });
+			});
 
 			app.get('/items', function(req, res) {
 				res.render('pages/items', {title:'Item List'});
