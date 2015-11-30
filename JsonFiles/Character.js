@@ -8,7 +8,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -20,7 +20,7 @@
 		{ id:ObjectId('1'), name:'Tim' }
 		],
 		inventory: [
-		{qty:1, id:ObjectId('...'), name:'scroll of cause fear' }]
+		{qty:1, id:ObjectId('14'), name:'scroll of cause fear' }]
 	},
 	gold: 523,
 	armor: [
@@ -49,7 +49,7 @@
 			intelligence: 13,
 			charisma: 20 },
 		'class': 'warrior', 
-		helath: 434,
+		health: 434,
 		mana: 152
 	},
 	location: {
@@ -89,7 +89,7 @@
 			intelligence: 20,
 			charisma: 8 },
 		'class': 'hunter', 
-		helath:250,
+		health:250,
 		mana: 75
 	},
 	location: {
@@ -129,7 +129,7 @@
 			intelligence: 16,
 			charisma: 10 },
 		'class': 'battlemage', 
-		helath: 300,
+		health: 300,
 		mana: 250
 	},
 	location: {
@@ -170,7 +170,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -211,7 +211,7 @@
 			intelligence: 12,
 			charisma: 12 },
 		'class': 'Death Knight', 
-		helath: 185,
+		health: 185,
 		mana: 100
 	},
 	location: {
@@ -251,7 +251,7 @@
 			intelligence: 25,
 			charisma: 8 },
 		'class': 'Archer', 
-		helath: 190,
+		health: 190,
 		mana: 152,
 	},
 	location: {
@@ -292,7 +292,7 @@
 			intelligence: 12,
 			charisma: 14 },
 		'class': 'Wrecker', 
-		helath: 248,
+		health: 248,
 		mana: 108
 	},
 	location: {
@@ -333,7 +333,7 @@
 			intelligence: 14,
 			charisma: 10 },
 		'class': 'Warrior', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -373,7 +373,7 @@
 			intelligence: 18,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 241,
+		health: 241,
 		mana: 152
 	},
 	location: {
@@ -416,7 +416,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -457,7 +457,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -498,7 +498,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -539,7 +539,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -580,7 +580,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -621,7 +621,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -662,7 +662,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -703,7 +703,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -744,7 +744,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {
@@ -785,7 +785,7 @@
 			intelligence: 17,
 			charisma: 8 },
 		'class': 'mage', 
-		helath: 212,
+		health: 212,
 		mana: 152
 	},
 	location: {

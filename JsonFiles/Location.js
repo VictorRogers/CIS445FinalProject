@@ -1,12 +1,12 @@
 {
-	id : 'maze-1',
+	id : 'Dun Morogh',
 	description: 'a maze of twisty little passages...',
-	exits: {n:'maze-2', s:' maze-1', e: 'maze-3'},
+	exits: {n:'Elwynn Forest', s:'Teldrassil'},
 	players: [
-		{id:ObjectId('...'), name:'grue' },
-		{id:ObjectId('...'), name:'Tim' }],
+		{id:ObjectId('2'), name:'grue' },
+		{id:ObjectId('1'), name:'Tim' }],
 	inventory: [
-	{qty:1, id:ObjectId('...'), name: 'scroll of cause fear'} ],
+	{qty:1, id:ObjectId('14'), name: 'scroll of cause fear'} ],
 }
 
 {
