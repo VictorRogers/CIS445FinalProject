@@ -13,14 +13,12 @@
 	},
 	location: {
 		id: 'Dun Morogh', 
-		description: '',
+		description: 'an easy starting area',
 	exits: {n:'Elwynn Forest', s:'Teldrassil'},
 		players: [
 		{ id:ObjectId('2'), name:'grue' },
 		{ id:ObjectId('1'), name:'Tim' }
-		],
-		inventory: [
-		{qty:1, id:ObjectId('14'), name:'scroll of cause fear' }]
+		]
 	},
 	gold: 523,
 	armor: [
@@ -54,7 +52,7 @@
 	},
 	location: {
 		id: 'Dun Morogh', 
-		description: '',
+		description: 'an easy starting area',
 	exits: {n:'Elwynn Forest ', s:'Teldrassil'},
 		players: [
 		{ id:ObjectId('2'), name:'grue' },
@@ -94,7 +92,7 @@
 	},
 	location: {
 		id: 'Elwynn Forest', 
-		description: '',
+		description: 'a dense green forest',
 	exits: {s:'Dun Morogh', e:'Azuremyst Ilse'},
 		players: [
 		],
@@ -134,7 +132,7 @@
 	},
 	location: {
 		id: 'Scarlet Enclave', 
-		description: '',
+		description: 'The dark lords lair.',
 	exits: {n:'Wandering Isle', s:'Kezan'},
 		players: [
 		{ id:ObjectId('4'), name:'Blake' },
@@ -175,7 +173,7 @@
 	},
 	location: {
 		id: 'Scarlet Enclave', 
-		description: '',
+		description: 'The dark lords lair.',
 	exits: {n:'Wandering Isle', s:'Kezan'},
 		players: [
 		{ id:ObjectId('5'), name:'Dalton' },
@@ -215,12 +213,11 @@
 		mana: 100
 	},
 	location: {
-		id: 'maze-1', 
-		description: 'a maze of twisty little passages...',
-	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
+		id: 'Kezan', 
+		description: 'desert wasteland',
+	exits: {n:'Scarlet Enclave', e:'Mulgore'},
 		players: [
-		{ id:ObjectId('...'), name:'grue' },
-		{ id:ObjectId('...'), name:'Tim' }
+		{ id:ObjectId('...'), name:'Jack' },
 		],
 		inventory: [
 		{qty:1, id:ObjectId('...'), name:'scroll of cause fear' }]
@@ -255,12 +252,11 @@
 		mana: 152,
 	},
 	location: {
-		id: 'maze-1', 
-		description: 'a maze of twisty little passages...',
-	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
+		id: 'Durotar', 
+		description: 'grassy plains',
+	exits: {w:'Gilneas'},
 		players: [
-		{ id:ObjectId('...'), name:'grue' },
-		{ id:ObjectId('...'), name:'Tim' }
+		{ id:ObjectId('...'), name:'Grim' },
 		],
 		inventory: [
 		{qty:1, id:ObjectId('...'), name:'scroll of cause fear' }]
@@ -297,7 +293,7 @@
 	},
 	location: {
 		id: 'maze-1', 
-		description: 'a maze of twisty little passages...',
+		description: '',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
 		{ id:ObjectId('...'), name:'grue' },
@@ -338,7 +334,7 @@
 	},
 	location: {
 		id: 'maze-1', 
-		description: 'a maze of twisty little passages...',
+		description: '',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
 		{ id:ObjectId('...'), name:'grue' },
@@ -378,7 +374,7 @@
 	},
 	location: {
 		id: 'maze-1', 
-		description: 'a maze of twisty little passages...',
+		description: '',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
 		{ id:ObjectId('...'), name:'grue' },
@@ -407,20 +403,20 @@
 }
 
 {
-	_id: ObjectId('...'),
-	name: 'Tim',
+	_id: ObjectId('11'),
+	name: 'Billy Badass',
 	character: {
 		intrinsics: {
-			strength: 10,
-			dexterity: 16,
-			intelligence: 17,
-			charisma: 8 },
-		'class': 'mage', 
-		health: 212,
-		mana: 152
+			strength: 20,
+			dexterity: 23,
+			intelligence: 2,
+			charisma: 1 },
+		'class': 'Skull Thumper', 
+		health: 500,
+		mana: 20
 	},
 	location: {
-		id: 'maze-1', 
+		id: 'Wandering Isle', 
 		description: 'a maze of twisty little passages...',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
