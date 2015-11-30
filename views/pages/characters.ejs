@@ -1,7 +1,7 @@
 <!-- public/pages/characters.ejs -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ui.bootstrap.demo">
 <head>
 	<title>PLACEHOLDER - Characters</title>
     <% include ../partials/head %>
@@ -13,20 +13,38 @@
     </header>
 
     <main class="container main-content">
+		
 			<h3>Character List</h3>
 				<p style="color:red;">Iterate via Angular</p>
-			<ul class="list-group">
-				<li class="list-group-item">Cras justo odio</li>
-				<li class="list-group-item">Dapibus ac facilisis in</li>
-				<li class="list-group-item">Morbi leo risus</li>
-				<li class="list-group-item">Porta ac consectetur ac</li>
-				<li class="list-group-item">Vestibulum at eros</li>
-			</ul>
+				
+				<div ng-repeat="character in characters">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h3 style="margin:0px;">{{character.name}}</h3>
+							<p><b>Health:</b> {{character.character.health}} <b>Mana:</b> {{character.character.mana}}</p>
+							
+							<b><u>Statistics</u></b>
+								<div class="row col-md-12">
+									<div class="col-md-6">
+										<p>
+										<b>Strength:</b> {{character.character.intrinsics.strength}}<br>
+										<b>Intelligence:</b> {{character.character.intrinsics.intelligence}}
+										</p>
+									</div>
+									<div class="col-md-6">
+										<p>
+										<b>Dexterity:</b> {{character.character.intrinsics.dexterity}}<br>
+										<b>Charisma:</b> {{character.character.intrinsics.charisma}}
+										</p>
+									</div>
+								</div>
+							
+						</div>
+					</div>
     </main>
 
     <footer>
         <% include ../partials/footer %>
     </footer>
-    
 </body>
 </html>

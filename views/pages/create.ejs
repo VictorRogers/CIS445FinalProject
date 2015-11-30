@@ -1,0 +1,44 @@
+<!-- public/pages/locations.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PLACEHOLDER - Locations</title>
+    <% include ../partials/head %>
+</head>
+<body>
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main class="container main-content">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h2>Create a Character</h2>
+					<div class="form-group">
+						<label for="chName">Character Name:</label>
+							<input type="text" class="form-control" id="chName" placeholder="Enter your name" ng-model="formData.chName">
+						
+						<label for="chClass">Class:</label>
+							<select class="form-control" id="chClass" ng-model="formData.chClass">
+								<option value="Archer">Archer</option>
+								<option value="Battlemage">Battlemage</option>
+								<option value="Death Knight">Death Knight</option>
+								<option value="Hunter">Hunter</option>
+								<option value="Mage">Mage</option>
+								<option value="Warrior">Warrior</option>
+								<option value="Wrecker">Wrecker</option>
+							</select>
+					</div>
+					
+				</div>
+			</div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>
+</html>
