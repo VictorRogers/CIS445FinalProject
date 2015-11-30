@@ -1,16 +1,16 @@
 Locations
-	1.)Dun Morogh
-	2.)Elwynn Forest
+	1.)Dun Morogh  'an easy starting area'
+	2.)Elwynn Forest  'a dense green forest'
 	3.)Teldrassil
 	4.)Azuremyst Ilse
 	5.)Gilneas
 	6.)Tirisfal Glades
-	7.)Durotar
-	8.)Mulgore
+	7.)Durotar 'grassy plains'
+	8.)Mulgore 'where the taurens roam'
 	9.)Eversong Woods
-	10.)Kezan
+	10.)Kezan 'desert wasteland'
 	11.)Wandering Isle
-	12.)Scarlet Enclave
+	12.)Scarlet Enclave 'The dark lords lair.'
 	
 	
 Items
