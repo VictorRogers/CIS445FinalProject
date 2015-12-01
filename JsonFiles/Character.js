@@ -126,8 +126,7 @@ db.Character.insert({
 	},
 	gold: 153,
 	armor: [
-		{name: 'potion of healing'} ]},
-		{qty:1,name:"wizard's hat", bonus:3, region: 'head'},
+		{name:"wizard's hat", bonus:3, region: 'head'},
 		{name: "steel chest plate", bonus:5, region: 'body'},
 		{name: "ass kicking boots", bonus:5, region: 'feet'}],
 	weapons: [ {name: "sword of slaughtering dead babies", bonus:5, hand: 'right'},
@@ -266,7 +265,7 @@ db.Character.insert({
 		{name:"iron helmet", bonus:3, region: 'head'},
 		{name: "steel chest plate", bonus:5, region: 'body'},
 		{name: "old boots", bonus:5,region: 'feet'}],
-	weapons: [ {name:'sword of slaughtering dead babies' ,hand: 'left'} ],
+	weapons: [ {name:'sword of slaughtering dead babies', bonus: 5 ,hand: 'left'} ],
 	inventory: [
 		{qty:1, name: 'backpack', inventory: [
 		{qty:3, name: 'potion of healing'},
@@ -435,7 +434,7 @@ db.Character.insert({
 	},
 	gold: 10000,
 	armor: [
-		{name: 'wizards hat', bonus: , region: 'head'},
+		{name: 'wizards hat', bonus: 3 , region: 'head'},
 		{name: 'wizards robe', bonus: 5, region: 'body'},
 		{name: 'ass kicking boots', bonus: 5, region: 'feet'}
 	],
