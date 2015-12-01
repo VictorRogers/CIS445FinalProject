@@ -5,8 +5,6 @@
 	players: [
 		{id:ObjectId('2'), name:'grue' },
 		{id:ObjectId('1'), name:'Tim' }],
-	inventory: [
-	{qty:1, id:ObjectId('14'), name: 'scroll of cause fear'} ],
 }
 
 {
