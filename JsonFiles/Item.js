@@ -1,5 +1,4 @@
 {
-		_id: Object('1'),
 		name: 'Tim',
 		bonus: 12,
 		inventory: [
