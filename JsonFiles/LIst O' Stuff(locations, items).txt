@@ -1,15 +1,15 @@
 Locations
 	1.)Dun Morogh  'an easy starting area'
 	2.)Elwynn Forest  'a dense green forest'
-	3.)Teldrassil
-	4.)Azuremyst Ilse
-	5.)Gilneas
-	6.)Tirisfal Glades
+	3.)Teldrassil 'the battlegrounds'
+	4.)Azuremyst Ilse 'brighty shiney island'
+	5.)Gilneas 'mountain range'
+	6.)Tirisfal Glades 'icey wasteland'
 	7.)Durotar 'grassy plains'
 	8.)Mulgore 'where the taurens roam'
-	9.)Eversong Woods
+	9.)Eversong Woods 'dark forest'
 	10.)Kezan 'desert wasteland'
-	11.)Wandering Isle
+	11.)Wandering Isle 'the lost island'
 	12.)Scarlet Enclave 'The dark lords lair.'
 	
 	
