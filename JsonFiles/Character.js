@@ -34,7 +34,7 @@ db.Character.insert({
 	]
 });
 
-{
+db.Character.insert({
 	name: 'Grue',
 	character: {
 		intrinsics: {
@@ -68,7 +68,8 @@ db.Character.insert({
 			{qty: 3, name: 'c-rations'}
 		]}
 	]
-}
+});
+
 db.Character.insert({
 
 	name: 'Bob',
@@ -103,8 +104,7 @@ db.Character.insert({
 		{qty:20, name: "steel tipped arrows", bonus:2}]
 
 });
-db.Character.insert(
-{
+db.Character.insert({
 	name: 'Blake',
 	character: {
 		intrinsics: {
@@ -136,9 +136,9 @@ db.Character.insert(
 		{qty:1,name: 'backpack', inventory: [
 		{qty:2,name: 'potion of healing'} ]},
 		]
-})
+});
 db.Character.insert(
-{
+db.Character.insert({
 	name: 'Dalton',
 	character: {
 		intrinsics: {
@@ -173,8 +173,7 @@ db.Character.insert(
 		{qty:5, name: 'c-rations'} ]}
 	]
 });
-db.Character.insert(
-{
+db.Character.insert({
 	name: 'Jack',
 	character: {
 		intrinsics: {
@@ -206,8 +205,7 @@ db.Character.insert(
 		{qty:1, name: 'scroll of magic mapping'}, ]}
 		 ]
 });
-db.Character.insert(
-{
+db.Character.insert({
 	name: 'Grim',
 	character: {
 		intrinsics: {
@@ -240,7 +238,7 @@ db.Character.insert(
 		{qty:30, name: "steel tipped arrows", bonus:2}	]}]
 });
 
-{
+db.Character.insert({
 	name: 'Haverfist',
 	character: {
 		intrinsics: {
@@ -273,9 +271,9 @@ db.Character.insert(
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:2, name: 'c-rations'} ]}
  ]
-}
+});
 
-{
+db.Character.insert({
 	name: 'Mike',
 	character: {
 		intrinsics: {
@@ -306,9 +304,9 @@ db.Character.insert(
 		{qty:4, name: 'potion of healing'},
 		{qty:2, name: 'c-rations'} ]},		
 		 ]
-}
+});
 
-{
+db.Character.insert({
 	name: 'Rocky',
 	character: {
 		intrinsics: {
@@ -335,7 +333,7 @@ db.Character.insert(
 		{name: "wizard's robe", bonus:5, region: 'head'},
 		{name: "wizard's robe", bonus:5, region: 'body'},
 		{name: "old boots", bonus:2, region: 'feet'}],
-	weapons: [name: "staff of resurrection", bonus:7, hand: 'left'}, 
+	weapons: [{name: "staff of resurrection", bonus:7, hand: 'left'}, 
 			{name: "hallowed wand", bonus:3, hand: 'right'} ],
 	inventory: [
 		{qty:1, name: 'backpack', inventory: [
@@ -343,9 +341,9 @@ db.Character.insert(
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:2, name: 'water of replenishment'} ]},
  ]
-}
+});
 
-{
+db.Character.insert({
 	name: 'Billy Badass',
 	character: {
 		intrinsics: {
@@ -376,9 +374,9 @@ db.Character.insert(
 		{qty:4, name: 'potion of healing'},
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:2, name: 'c-rations'} ]} ]
-}
+});
 
-{
+db.Character.insert({
 	name: 'Goku',
 	character: {
 		intrinsics: {
@@ -406,14 +404,14 @@ db.Character.insert(
 	],
 	weapons: [{staff of resurrection, bonus: 7, hand: 'both'}],
 	inventory: [
-		{qty: 1, name: 'backpack', inventory: [
+			{qty: 1, name: 'backpack', inventory: [
 			{qty: 5, name: 'potion of healing'},
 			{qty: 3, name: 'apple'}
 		]}
 	]
-}
+});
 
-{
+db.Character.insert({
 	name: 'Pansyass',
 	character: {
 		intrinsics: {
@@ -446,8 +444,8 @@ db.Character.insert(
 			{qty: 3, name: 'water of replenishment'}
 		]}
 	]
-}
-{
+});
+db.Character.insert({
 	name: 'That Guy',
 	character: {
 		intrinsics: {
@@ -482,9 +480,9 @@ db.Character.insert(
 			{qty: 5, name: 'c-rations'}
 		]}
 	]
-}
+});
 
-{
+db.Character.insert({
 	name: 'Last Man Standing',
 	character: {
 		intrinsics: {
@@ -518,10 +516,10 @@ db.Character.insert(
 			{qty: 6, name: 'water of replenishment'}
 		]}
 	]
-}
+});
 
 
-{
+db.Character.insert({
 name: 'Bloody Face',
 	character: {
 		intrinsics: {
@@ -556,8 +554,8 @@ name: 'Bloody Face',
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:5, name: 'apple'} ]},
 		 ]
-}
-{
+});
+db.Character.insert({
 	
 	name: 'Dead Shot',
 	character: {
@@ -575,9 +573,8 @@ name: 'Bloody Face',
 		description: 'Icey Waistland',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
-		{ name:'Dead Shot' },
-		
-		],
+			{ name:'Dead Shot' },
+			]
 		
 	},
 	gold: 785,
@@ -592,12 +589,12 @@ name: 'Bloody Face',
 		{qty:1, name: 'backpack', inventory: [
 		{qty:4, name: 'potion of healing'},
 		{qty:1, name: 'scroll of magic mapping'},
-		{qty:5, name: 'apple'} ]},
-		{ qty:34, name: "steel tipped arrows", bonus:2}, 		
+		{qty:5, name: 'apple'},
+		{qty:34, name: 'steel tipped arrows', bonus:2}}, 		
 		]
-}
+});
 
-{
+db.Character.insert({
 	
 	name: 'Brain Smasher',
 	character: {
@@ -631,12 +628,12 @@ name: 'Bloody Face',
 		{qty:1, name: 'backpack', inventory: [
 		{qty:3, name: 'potion of healing'},
 		{qty:5, name: 'c-rations'} ]}, ]
-}	
+});	
 
 
 
 
-{
+db.Character.insert({
 name: 'Fire Fox',
 	character: {
 		intrinsics: {
@@ -673,10 +670,10 @@ name: 'Fire Fox',
 		{qty:5, name: 'apple'} ]},
 		
 		 ]
-}
+});
 
 
-{
+db.Character.insert({
 name: 'Skull Crusher',
 	character: {
 		intrinsics: {
@@ -706,13 +703,13 @@ name: 'Skull Crusher',
 	],
 	weapons: [{qty: 1, name: 'noob masher', bonus: 6, hand: 'both'}],
 	inventory: [
-	inventory: [
 		{qty:1, name: 'backpack', inventory: [
 		{qty:4, name: 'potion of healing'},
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:30, name: 'sure strike bow'},
-		{qty:5, name: 'apple'} ]},
-		
-		 ]
-}
+		{qty:5, name: 'apple'} ]}
+		]
+});
 
+
+Billy Badass, Goku, That Guy, Dead Shot
