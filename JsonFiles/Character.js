@@ -137,7 +137,7 @@ db.Character.insert({
 		{qty:2,name: 'potion of healing'} ]},
 		]
 });
-db.Character.insert(
+
 db.Character.insert({
 	name: 'Dalton',
 	character: {
