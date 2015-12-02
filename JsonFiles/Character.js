@@ -69,8 +69,8 @@ db.Character.insert({
 		]}
 	]
 }
+db.Character.insert({
 
-{
 	name: 'Bob',
 	character: {
 		intrinsics: {
@@ -101,8 +101,9 @@ db.Character.insert({
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:2, name: 'apple'} ]},
 		{qty:20, name: "steel tipped arrows", bonus:2}]
-}
 
+});
+db.Character.insert(
 {
 	name: 'Blake',
 	character: {
@@ -135,8 +136,8 @@ db.Character.insert({
 		{qty:1,name: 'backpack', inventory: [
 		{qty:2,name: 'potion of healing'} ]},
 		]
-}
-
+})
+db.Character.insert(
 {
 	name: 'Dalton',
 	character: {
@@ -163,7 +164,7 @@ db.Character.insert({
 		{name:"leather helmet", bonus:3, region: 'head'},
 		{name: "leather chest", bonus:4, region: 'body'},
 		{name: "old boots", bonus:2, region: 'feet'}],
-	weapons: [name: "poison dagger", bonus:5, hand: 'right'},
+	weapons: [{name: "poison dagger", bonus:5, hand: 'right'},
 			  {name: "poison dagger", bonus:5, hand: 'left'}],
 	inventory: [
 		{qty:1, name: 'backpack', inventory: [
@@ -171,8 +172,8 @@ db.Character.insert({
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:5, name: 'c-rations'} ]}
 	]
-}
-
+});
+db.Character.insert(
 {
 	name: 'Jack',
 	character: {
@@ -204,8 +205,8 @@ db.Character.insert({
 		{qty:3, name: 'potion of healing'},
 		{qty:1, name: 'scroll of magic mapping'}, ]}
 		 ]
-}
-
+});
+db.Character.insert(
 {
 	name: 'Grim',
 	character: {
@@ -237,7 +238,7 @@ db.Character.insert({
 		{qty:6, name: 'potion of healing'},
 		{qty:4, name: 'apple'} ,
 		{qty:30, name: "steel tipped arrows", bonus:2}	]}]
-}
+});
 
 {
 	name: 'Haverfist',

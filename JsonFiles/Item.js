@@ -1,3 +1,4 @@
+db.Items.insert(
 {
 		name: 'Tim',
 		bonus: 12,
@@ -11,11 +12,12 @@
 			{qty:1, name: 'backpack', inventory: [
 			{qty:4, name: 'potion of healing'},
 			{qty:1, name: 'scroll of magic mapping'},
-			{qty:2, name: 'c-rations'} ]},
-		]]
-		weight: 12,
-		price: 160;
-}
+			{qty:2, name: 'c-rations'} }],
+		]
+		spec: [
+			{weight: 12},
+			{price: 160}
+});
 
 {
 		name: 'Grue',
