@@ -402,7 +402,7 @@ db.Character.insert({
 		{name: 'leather chest', bonus: 4, region: 'body'},
 		{name: 'old boots', bonus: 2, region: 'feet'}
 	],
-	weapons: [{staff of resurrection, bonus: 7, hand: 'both'}],
+	weapons: [{name: 'staff of resurrection', bonus: 7, hand: 'both'}],
 	inventory: [
 			{qty: 1, name: 'backpack', inventory: [
 			{qty: 5, name: 'potion of healing'},
@@ -477,7 +477,7 @@ db.Character.insert({
 	inventory: [
 		{qty: 1, name: 'backpack', inventory: [
 			{qty: , name: 'scroll of magic mapping'},
-			{qty: 5, name: 'c-rations'}
+			{qty: 5, name: 'c-rations'},
 		]}
 	]
 });
@@ -556,7 +556,6 @@ name: 'Bloody Face',
 		 ]
 });
 db.Character.insert({
-	
 	name: 'Dead Shot',
 	character: {
 		intrinsics: {
@@ -564,7 +563,7 @@ db.Character.insert({
 		dexterity: 90,
 		intelligence: 85,
 		charisma: 22 },
-		'class': 'marksmen', 
+		class: 'marksmen', 
 		helath: 210,
 		mana: 150
 	},
@@ -574,8 +573,7 @@ db.Character.insert({
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
 			{ name:'Dead Shot' },
-			]
-		
+			]		
 	},
 	gold: 785,
 	armor: [
@@ -590,7 +588,7 @@ db.Character.insert({
 		{qty:4, name: 'potion of healing'},
 		{qty:1, name: 'scroll of magic mapping'},
 		{qty:5, name: 'apple'},
-		{qty:34, name: 'steel tipped arrows', bonus:2}}, 		
+		{qty:34, name: 'steel tipped arrows', bonus:2} ]},
 		]
 });
 
