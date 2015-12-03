@@ -46,6 +46,12 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			collection.insert(newCharacter);
 		});
 
+		app.put('/characters/:id', function(req, res) {
+			var charData = req.body;
+			var collection = db.collection('Character');
+			collection.update({ "_id" : new ObjectID(req.params.id)}, charData);
+		});
+
 		app.delete('/characters/:id', function(req, res) {
       var collection = db.collection('Character');
 			collection.remove({ "_id" : new ObjectID(req.params.id)});
@@ -77,6 +83,11 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			collection.insert(newItem);
 		});
 
+		app.put('/items/:id', function(req, res) {
+			var itemData = req.body;
+			var collection = db.collection('Item');
+			collection.update({ "_id" : new ObjectID(req.params.id)}, itemData);
+		});
 
 		app.delete('/items/:id', function(req, res) {
       var collection = db.collection('Item');
@@ -109,6 +120,11 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			collection.insert(newLocation);
 		});
 
+		app.put('/locations/:id', function(req, res) {
+			var locationData = req.body;
+			var collection = db.collection('Location');
+			collection.update({ "_id" : new ObjectID(req.params.id)}, locationData);
+		});
 
 		app.delete('/locations/:id', function(req, res) {
       var collection = db.collection('Location');
