@@ -1,4 +1,4 @@
-// set up ==========================================================
+// set up ===============================================================================
 var bodyParser = require('body-parser');
 var express = require('express');
 var app			= express();
@@ -7,7 +7,7 @@ var mongo   = require('mongodb').MongoClient;
 var BSON    = require('mongodb').BSONPure;
 var ObjectID = require('mongodb').ObjectID;
 
-// configuration ===================================================
+// configuration ========================================================================
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -21,7 +21,7 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			//res.render('pages/index', {title:'Index Page'});
 		});
 
-		//Characters========================================================
+		//Characters==========================================================================
 		app.get('/characters', function(req, res) {
 			//res.render('pages/characters', {title:'Character List'});
 			var collection = db.collection('Character');
@@ -33,9 +33,10 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 		});
 
 		app.get('/characters/:id', function (req, res) {
-		  console.log(req.params.id);	
 			var collection = db.collection('Character');
-			_id = new ObjectID(req.params.id);
+			collection.findOne({ "_id" : new ObjectID(req.params.id)}, function (err, result) {
+				res.json(result);
+			});
 		});
 
     app.post('/addCharacter', function(req, res) {
@@ -43,10 +44,10 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			var collection = db.collection('Character');
 			collection.insert(newCharacter);
 		});
-		//==================================================================
+		//===================================================================================
 
 
-		//Items=============================================================
+		//Items==============================================================================
 		app.get('/items', function(req, res) {
 			//res.render('pages/items', {title:'Item List'});
 			var collection = db.collection('Item');
@@ -57,15 +58,22 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			});
 		});
 
+		app.get('/items/:id', function (req, res) {
+			var collection = db.collection('Item');
+			collection.findOne({ "_id" : new ObjectID(req.params.id)}, function (err, result) {
+				res.json(result);
+			});
+		});
+
 		app.post('/addItem', function(req, res) {
 			var newItem = req.body;
 			var collection = db.collection('Item');
 			collection.insert(newItem);
 		});
-		//=================================================================
+		//===================================================================================
 
 
-    //Locations ========================================================
+    //Locations =========================================================================
 		app.get('/locations', function(req, res) {
 			//res.render('pages/locations', {title:'Location List'});
 			var collection = db.collection('Location');
@@ -76,15 +84,22 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			});
 		});
 
+		app.get('/locations/:id', function (req, res) {
+			var collection = db.collection('Location');
+			collection.findOne({ "_id" : new ObjectID(req.params.id)}, function (err, result) {
+				res.json(result);
+			});
+		});
+
 		app.post('/addLocation', function(req, res) {
 			var newLocation = req.body;
 			var collection = db.collection('Location');
 			collection.insert(newLocation);
 		});
-		//==================================================================
+		//===================================================================================
 
 
-		// listen ==========================================================
+		// listen ===========================================================================
 		app.listen(port);
 		console.log("App listening on port " + port);
 	}
