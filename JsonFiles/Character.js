@@ -6,7 +6,7 @@ db.Character.insert({
 			dexterity: 16,
 			intelligence: 17,
 			charisma: 8 },
-		class: 'mage', 
+		'class': 'mage', 
 		health: 212,
 		mana: 152 },
 		
@@ -42,7 +42,7 @@ db.Character.insert({
 			dexterity: 10,
 			intelligence: 13,
 			charisma: 20 },
-		class: 'warrior', 
+		'class': 'warrior', 
 		health: 434,
 		mana: 152 
 	},
@@ -79,7 +79,7 @@ db.Character.insert({
 			dexterity: 25,
 			intelligence: 20,
 			charisma: 8 },
-		class: 'hunter', 
+		'class': 'hunter', 
 		health:250,
 	mana: 75 ,
 	},
@@ -112,7 +112,7 @@ db.Character.insert({
 			dexterity: 16,
 			intelligence: 16,
 			charisma: 10 },
-		class: 'battlemage', 
+		'class': 'battlemage', 
 		health: 300,
 	mana: 250 
 	},
@@ -146,7 +146,7 @@ db.Character.insert({
 			dexterity: 16,
 			intelligence: 17,
 			charisma: 8 },
-		class: 'mage', 
+		'class': 'mage', 
 		health: 212,
 	mana: 152 
 	},
@@ -181,7 +181,7 @@ db.Character.insert({
 			dexterity: 14,
 			intelligence: 12,
 			charisma: 12 },
-		class: 'Death Knight', 
+		'class': 'Death Knight', 
 		health: 185,
 	mana: 100 
 	},
@@ -213,7 +213,7 @@ db.Character.insert({
 			dexterity: 22,
 			intelligence: 25,
 			charisma: 8 },
-		class: 'Archer', 
+		'class': 'Archer', 
 		health: 190,
 	mana: 152 
 	},
@@ -246,7 +246,7 @@ db.Character.insert({
 			dexterity: 14,
 			intelligence: 12,
 			charisma: 14 },
-		'class': 'Wrecker', 
+		''class'': 'Wrecker', 
 		health: 248,
 		mana: 108 
 	},
@@ -281,7 +281,7 @@ db.Character.insert({
 			dexterity: 17,
 			intelligence: 14,
 			charisma: 10 },
-		class: 'Warrior', 
+		'class': 'Warrior', 
 		health: 212,
 		mana: 152
 	},
@@ -314,7 +314,7 @@ db.Character.insert({
 			dexterity: 16,
 			intelligence: 18,
 			charisma: 8 },
-		class: 'mage', 
+		'class': 'mage', 
 		health: 241,
 	mana: 152
 	},
@@ -351,7 +351,7 @@ db.Character.insert({
 			dexterity: 23,
 			intelligence: 2,
 			charisma: 1 },
-		class: 'Skull Thumper', 
+		'class': 'Skull Thumper', 
 		health: 500,
 	mana: 20
 	},
@@ -384,7 +384,7 @@ db.Character.insert({
 			dexterity: 25,
 			intelligence: 7,
 			charisma: 20 },
-		class: 'Sayian', 
+		'class': 'Sayian', 
 		health: 500,
 		mana: 152 
 	},
@@ -419,12 +419,12 @@ db.Character.insert({
 			dexterity: 1,
 			intelligence: 3,
 			charisma: 2 },
-		class: 'wannabe', 
+		'class': 'wannabe', 
 		health: 99,
 		mana: 78
 	},
 	location: {
-		id: 'Azuremyst Ilse', 
+		id: 'Azuremyst Isle', 
 		description: 'brighty shiney island',
 		exits: {n: 'Teldrassil', s: 'Gilneas'},
 		players: [
@@ -453,7 +453,7 @@ db.Character.insert({
 			dexterity: 5,
 			intelligence: 15,
 			charisma: 20 },
-		class: 'Fighter', 
+		'class': 'Fighter', 
 		health: 485,
 		mana: 320 
 	},
@@ -476,8 +476,8 @@ db.Character.insert({
 	weapons: [{qty: 1, name: 'axe of slaying', bonus: 3, hand: 'both'}],
 	inventory: [
 		{qty: 1, name: 'backpack', inventory: [
-			{qty: , name: 'scroll of magic mapping'},
-			{qty: 5, name: 'c-rations'},
+			{qty: 1, name: 'scroll of magic mapping'},
+			{qty: 5, name: 'c-rations'}
 		]}
 	]
 });
@@ -490,7 +490,7 @@ db.Character.insert({
 			dexterity: 18,
 			intelligence: 16,
 			charisma: 21 },
-		class: 'Warlock', 
+		'class': 'Warlock', 
 		health: 365,
 		mana: 400
 	},
@@ -527,7 +527,7 @@ name: 'Bloody Face',
 		dexterity: 90,
 		intelligence: 99,
 		charisma: 22 },
-		class: 'Bzerker', 
+		'class': 'Bzerker', 
 		helath: 265,
 	mana: 150
 	},
@@ -563,13 +563,13 @@ db.Character.insert({
 		dexterity: 90,
 		intelligence: 85,
 		charisma: 22 },
-		class: 'marksmen', 
+		'class': 'marksmen', 
 		helath: 210,
 		mana: 150
 	},
 	location: {
 		id: 'Tirisfal Glades', 
-		description: 'Icey Waistland',
+		description: 'Icy Wasteland',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
 			{ name:'Dead Shot' },
@@ -578,11 +578,11 @@ db.Character.insert({
 	gold: 785,
 	armor: [
 		{name: "leather helmet", bonus: 3, region: 'head'},
-		{name: "leather chest", bonus:4 , region: 'body'},
-		{name: "old boots", bonus:2 , region: 'feet'}
+		{name: "leather chest", bonus: 4, region: 'body'},
+		{name: "old boots", bonus: 2, region: 'feet'}
 	],
 	weapons: [{name: "sure strike bow", bonus:6, hand: 'left'},
-			 {name: "poison dagger", bonus:5 , hand: 'right'} ],
+			 {name: "poison dagger", bonus:5, hand: 'right'} ],
 	inventory: [
 		{qty:1, name: 'backpack', inventory: [
 		{qty:4, name: 'potion of healing'},
@@ -601,7 +601,7 @@ db.Character.insert({
 		dexterity: 11,
 		intelligence: 1,
 		charisma: 8 },
-		'class': 'warrior', 
+		''class'': 'warrior', 
 		helath: 315,
 	mana: 90
 	},
@@ -639,7 +639,7 @@ name: 'Fire Fox',
 		dexterity: 105,
 		intelligence: 84,
 		charisma: 29 },
-		class: 'Bow Man', 
+		'class': 'Bow Man', 
 		helath: 195,
 	mana: 189
 	},
@@ -679,7 +679,7 @@ name: 'Skull Crusher',
 		dexterity: 88,
 		intelligence: 62,
 		charisma: 29 },
-		class: 'Warrior', 
+		'class': 'Warrior', 
 		helath: 450,
 	mana: 48
 	},
