@@ -26,8 +26,9 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			//res.render('pages/characters', {title:'Character List'});
 			var collection = db.collection('Character');
 			collection.find().toArray(function(err, results) {
-				if (err) 
-					throw err;
+				if (err) {
+					console.log(err);
+				}
 				res.json(results);
 			});
 		});
@@ -43,6 +44,11 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			var newCharacter = req.body;
 			var collection = db.collection('Character');
 			collection.insert(newCharacter);
+		});
+
+		app.delete('/characters/:id', function(req, res) {
+      var collection = db.collection('Character');
+			collection.remove({ "_id" : new ObjectID(req.params.id)});
 		});
 		//===================================================================================
 
@@ -70,6 +76,12 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			var collection = db.collection('Item');
 			collection.insert(newItem);
 		});
+
+
+		app.delete('/items/:id', function(req, res) {
+      var collection = db.collection('Item');
+			collection.remove({ "_id" : new ObjectID(req.params.id)});
+		});
 		//===================================================================================
 
 
@@ -95,6 +107,12 @@ mongo.connect("mongodb://localhost:27017/onlineGaming", function(err, db) {
 			var newLocation = req.body;
 			var collection = db.collection('Location');
 			collection.insert(newLocation);
+		});
+
+
+		app.delete('/locations/:id', function(req, res) {
+      var collection = db.collection('Location');
+			collection.remove({ "_id" : new ObjectID(req.params.id)});
 		});
 		//===================================================================================
 
