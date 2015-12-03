@@ -556,42 +556,41 @@ name: 'Bloody Face',
 		 ]
 });
 db.Character.insert({
-	name: 'Dead Shot',
+name: 'Dead Shot',
 	character: {
 		intrinsics: {
 		strength: 26,
 		dexterity: 90,
 		intelligence: 85,
 		charisma: 22 },
-		'class': 'marksmen', 
+		'class': 'Marksman', 
 		helath: 210,
-		mana: 150
+	mana: 150
 	},
 	location: {
 		id: 'Tirisfal Glades', 
 		description: 'Icy Wasteland',
 	exits: {n:'maze-2', s:'maze-1', e:'maze-3'},
 		players: [
-			{ name:'Dead Shot' },
-			]		
+		{ name:'Dead Shot' },
+		],
 	},
 	gold: 785,
 	armor: [
 		{name: "leather helmet", bonus: 3, region: 'head'},
-		{name: "leather chest", bonus: 4, region: 'body'},
+		{name: 'leather chest', bonus: 4, region: 'body'},
 		{name: "old boots", bonus: 2, region: 'feet'}
 	],
-	weapons: [{name: "sure strike bow", bonus:6, hand: 'left'},
+		weapons: [{name: "sure strike bow", bonus:6, hand: 'left'},
 			 {name: "poison dagger", bonus:5, hand: 'right'} ],
 	inventory: [
 		{qty:1, name: 'backpack', inventory: [
 		{qty:4, name: 'potion of healing'},
 		{qty:1, name: 'scroll of magic mapping'},
-		{qty:5, name: 'apple'},
-		{qty:34, name: 'steel tipped arrows', bonus:2} ]},
-		]
+		{qty:1, name: 'steel tipped arrows', bonus: 2},
+		{qty:5, name: 'apple'} ]},
+		 ]
 });
-
 db.Character.insert({
 	
 	name: 'Brain Smasher',
